@@ -3,7 +3,56 @@
 /** Keys **/
 /** Text **/
 body {
+  background-color: #3a4764;
+  color: white;
+  font-family: Spartan, sans-serif;
   font-size: 32px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 375px;
+  }
+}
+.header-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.toggle-switch {
+  background-color: #232c43;
+  border-radius: 25px;
+  padding: 5px 0;
+  width: 65px;
+}
+
+.labels, .radios {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  justify-content: space-around;
 }
 
 .attribution {
