@@ -16,6 +16,7 @@ $key-bg-lt-gray-orange: hsl(30deg, 25%, 89%);
 $key-shadow-gray-orange: hsl(28deg, 16%, 65%);
 
 /** Text **/
+$attribution-text: hsl(228, 45%, 44%);
 $text-dark-gray-blue: hsl(221deg, 14%, 31%);
 $text-white: hsl(0deg, 0%, 100%);
 
@@ -31,5 +32,5 @@ body {
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: $attribution-text; 
 }
