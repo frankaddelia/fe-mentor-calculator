@@ -1,3 +1,27 @@
+/*** Global ***/
+
+/** Background colors **/
+$main-bg: hsl(222deg, 26%, 31%);
+$toggle-keypad-bg: hsl(223deg, 31%, 20%);
+$screen-background: hsl(224deg, 36%, 15%);
+
+/** Keys **/
+$key-bg: hsl(225deg, 21%, 49%);
+$key-shadow: hsl(224deg, 28%, 35%);
+$key-bg-toggle: hsl(6deg, 63%, 50%);
+$key-toggle-shadow: hsl(6deg, 70%, 34%);
+$key-bg-lt-gray-orange: hsl(30deg, 25%, 89%);
+$key-shadow-gray-orange: hsl(28deg, 16%, 65%);
+
+/** Text **/
+$text-dark-gray-blue: hsl(221deg, 14%, 31%);
+$text-white: hsl(0deg, 0%, 100%);
+
+$font-size: 32px;
+
+body {
+    font-size: $font-size;
+}
 
 
 .attribution { 

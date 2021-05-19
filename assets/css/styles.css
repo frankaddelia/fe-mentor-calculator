@@ -1,3 +1,11 @@
+/*** Global ***/
+/** Background colors **/
+/** Keys **/
+/** Text **/
+body {
+  font-size: 32px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
